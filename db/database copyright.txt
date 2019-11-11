@@ -1,0 +1,22 @@
+https://wiki.creativecommons.org/wiki/Data#When_a_CC_license_is_applied_to_a_database.2C_what_is_being_licensed.3F
+
+## Which components of databases are protected by copyright?
+
+With databases, there are likely four components to consider: (1) the database model or structure, (2) the data entry and output sheet, (3) field names, and (4) the data or other content.
+
+The database model refers to how a database is structured and organized, including database tables and table indexes. The selection, coordination, and arrangement of the database is subject to copyright if it is sufficiently original. The originality threshold is fairly low in many jurisdictions. For example, while courts in the United States have held that an alphabetical telephone directory was insufficiently original to merit copyright protection, an organized directory of Chinese-American businesses in a particular area did.[1] These determinations are very fact-specific (no pun intended) and vary by jurisdiction.
+
+The data entry and output sheets contain questions, and the answers to these questions are stored in a database. For example, a web page asking a scientist to enter a gene’s name, its pathway information, and its ontology would constitute a data entry sheet. The format and layout of these sheets are protected by copyright according to the same standard of originality used to determine if the database model is copyrightable.
+
+Field names describe the contents or data. For example, “address” might be the name of the field for street address information. These are less likely to be protected by copyright because they often lack sufficient originality.
+
+The data or other contents contained in the database are subject to copyright if they are sufficiently creative. Original poems contained in a database would be protected by copyright, but purely factual data (such as gene names or city populations) would not. Facts are not subject to copyright, nor are the ideas underlying copyrighted content.
+
+## How do I know whether a particular use of a database is restricted by copyright?
+
+When the database structure or its contents is subject to copyright, reproducing, distributing, or modifying the database will often be restricted by copyright law. However, it is important to note that some uses of a copyrighted database will not be restricted by copyright. It may be possible, for example, to rearrange or modify the uncopyrightable data in a way that does not implicate the copyright in the database structure. For example, while (as noted above) a court in the United States held that a directory of Chinese-American businesses was restricted by copyright, the same court went on to hold that a directory that duplicated hundreds of its listings was not infringing because the listings were categorized and arranged in a sufficiently dissimilar way. In those situations, compliance with the license conditions is not required unless the database contents are themselves restricted by copyright.
+
+Similarly, even where database contents are subject to copyright and published under a CC license, use of the facts and ideas embedded within the contents will not require attribution (or compliance with other applicable license conditions), unless doing so implicates copyright in the database structure as explained above. This important limitation of all CC licenses is highlighted on the license deeds in the Notice section, where we emphasize that compliance with the license is not required for elements of the material in the public domain.
+If my use of a database is restricted by copyright, how do I comply with the license?
+
+All CC licenses require that you attribute the licensor when your use involves public sharing. Your other obligations depend on the particular CC license applied to the database. If it is a NC license, any regulated use must be limited to noncommercial purposes only. If a ND is applied, you may produce an adapted database but cannot share it publicly. If it is a ShareAlike (SA) license, you must apply the same or a compatible license to any adaptation of the database you share publicly.
