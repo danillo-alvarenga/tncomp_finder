@@ -20,7 +20,7 @@ TnComp_finder runs on Python 3.4 or newer and has been tested on Debian 9, Ubunt
 
 ### DATABASES
 
-TnComp_finder depends on a transposon database, which is currently not included with the program due to licensing issues. Therefore, it is necessary to create a custom database by retrieve complete nucleotide sequences for transposable elements and write them using as header `$ID|$FAMILY` (where `$ID` is the database ID number for the sequence and `$FAMILY` is the family the transposon is classified in) into a file called `transposons.fna`. This file should be moved to a subdirectory called `db` in the directory where the `TnComp_finder.py` script is stored. We recomend getting sequences from ISfinder (<https://www-is.biotoul.fr/>).
+TnComp_finder depends on a transposon database. As an alternative to the database included with this program, it is possible to use custom databases by retrieving complete nucleotide sequences for transposable elements and writing them into a multifasta file called `transposons.fna`. Headers should follow the pattern `$ID|$FAMILY` (where `$ID` is the database ID number for the sequence and `$FAMILY` is the family the transposon is classified in). This file should be moved to a subdirectory called `db` in the directory where the `TnComp_finder.py` script is stored. We recomend getting sequences from ISfinder (<https://www-is.biotoul.fr/>).
 
 ---
 
