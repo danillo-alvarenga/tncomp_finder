@@ -37,7 +37,7 @@ Biopython can also be installed as superuser by pip3:
 For convenience, after downloading and extracting the latest TnComp_finder release from GitHub you can move the TnComp_finder directory to the desired destination and add it to your path:  
 `mv TnComp_finder-1.0.0/ bioinformatics/`  
 `cd bioinformatics/TnComp_finder-1.0.0/`  
-`echo 'export PATH=$PATH'$(pwd) >> ~/.bashrc`  
+`echo 'export PATH=$PATH:'$(pwd) >> ~/.bashrc`  
 `source ~/.bashrc`  
 
 >**Note:** CentOS 6 only ships with the legacy Python 2 version. In case you are using a Red Hat-based distribution in which Python 3 is still unavailable, the latest Python version can be installed from source by issuing the following commands to the terminal as superuser:  
